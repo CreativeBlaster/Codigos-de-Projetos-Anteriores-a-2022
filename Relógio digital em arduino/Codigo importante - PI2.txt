@@ -1,0 +1,51 @@
+ //============================== BOTAO DE TRANSIÇÃO =====================
+  if(control9==0){ // FORMULA GERAL
+      if (sensorVal9 == LOW){ // QUANDO APERTAR BOTÃO
+        control9= control9 + 1;
+                             }                  
+        modulo=modulo + control9; // VARIAVEL QUE QUERO    ALTERAR       
+                      } 
+                       
+      if(control9>=1){              
+      if(sensorVal9 == HIGH){
+       control9=0;
+                             }
+                      }
+
+
+
+CONTADOR DE SEGUNDOS
+
+     contador = (millis()/1000);
+                     // FORMULA PARA SOMA NA VARIACAO DE TEMPO - MILLIS
+      if(ponteiro==0){ // variavel só altera uma vez a cada rotina
+      controla = contador;//iguala variaveis
+      
+        ponteiro= ponteiro + 1;//soma 1
+                                              
+        s=s + ponteiro; // soma 1 ao segundo           
+                      }                        
+      if(ponteiro>=1){              
+      if(controla != contador){// variavel somente se altera a cada segundo
+       ponteiro=0;             // me dando 1 seg de vantagem para reinicio
+                             }
+                      } 
+
+-----------------------------------------------------------
+bool bissexto = false;
+ 
+if ( ( ano % 4 == 0 && ano % 100 != 0 ) || ano % 400 == 0 )
+    bissexto = true;
+-----------------------------------------------------------
+
+
+
+relatório
+imput pull up, pull down.
+
+pinMode()
+Parameters
+
+pin: the number of the pin whose mode you wish to set
+mode: INPUT, OUTPUT, or INPUT_PULLUP. (see the digital pins page for a more complete description of the functionality.)
+

@@ -1,2 +1,3 @@
 ## Este codigo refere-se ao controle de animação de um personagem em 2d utilizando  funçoes basicas do java script para unity3D
 - lembro da minha alegria ao conseguir fazer o personagem se animar de acordo com os comandos do teclado XD
+o MovimentoHeroi é um código mais polido...
