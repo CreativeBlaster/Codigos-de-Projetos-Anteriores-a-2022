@@ -1,0 +1,25 @@
+loop   -modulos -relogio    -edição   - segundo
+			    -status   - minuto
+				    - hora
+				    - dia
+				    - mes	
+				    - ano
+
+			    -*status  - temperatura
+
+			    -processo -somador de segundo
+				    -comparador de hora-minuto de despertador
+				    -sensor de botão
+				    -beep
+				    -sensor de temperatura
+				    -ano bissexto	 
+ 
+	        -despertador -status  -segundo despertador
+			   -edição  -minuto despertador
+				    -hora despertador
+
+			   -*status - titulo
+
+       -status  -modulo
+	        -edição
+	        -ano bissexto

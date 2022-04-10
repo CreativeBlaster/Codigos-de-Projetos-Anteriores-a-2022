@@ -1,0 +1,7 @@
+programação do botão - geral
+programação do contador de segundos
+programação dos meses ,calendário  
+programação do ano bissexto
+programação do despertador        
+programação do beep (som)        
+
